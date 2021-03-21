@@ -20,7 +20,6 @@ def game_core_v2(number):
                 predict1 -= 1
                 count += 1
     return(count) # выход из цикла, если угадали
-
 def score_game(game_core):
     '''Запускаем игру 1000 раз, чтобы узнать, как быстро игра угадывает число'''
     count_ls = []
